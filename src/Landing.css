@@ -1,0 +1,48 @@
+.topbar {
+    background-color: #CF102D;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 10%;
+    font-family: serif;
+    text-align: left;
+    float: right;
+    position: fixed;
+    z-index: 2
+}
+
+.topbar img {
+    max-width: 75%;
+    max-height: 75%;
+    margin: 10px 10px;
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 2
+}
+
+.contained {
+    position: relative;
+    width: 50%;
+}
+
+.contained .button {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    background-color: #FFCD23;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    padding: 0px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: san-serif;
+}
+
+.contained img {
+    max-width: 200%;
+    height: auto;
+    filter: blur(10px);
+}
